@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    padding-top: 30px;
+    color: #1f3d7286;
+}
+h4{
+    padding: 50px 20px;
+}
+hr{
+    height: 5px;
+    background-color: rgb(233, 233, 233);
+    border-color: rgb(233, 233, 233);
+}
+
+/* --------------------------- */
+/* ------ MENU Principal------ */
+/* --------------------------- */
+
+.nav__bar{
+    background-color: rgb(233, 233, 233);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.menu{
+    text-align: left;
+}
+
+.vacuna{
+    color: #285ae6;
+    font-size: xx-large;
+    text-align: right;
+    padding: 0 140px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: block;
+}
+
+.menu li{
+    
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: #285ae6;
+    color: white;
+}
+/* --------------------------- */
+/* ---------- HEADER---------- */
+/* --------------------------- */
+.header{
+    padding: 70px 100px;
+    margin-right: 500px;
+}
+.titulo-inicial{
+    color: #1f3e72;
+    font-size:xx-large;
+}
+.img{
+    width: 800px;
+    z-index: 0;
+    position: absolute;
+    margin-left: 600px;
+}
+.list__img1{
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+.list__img2{
+    position: absolute;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* --------------------------- */
+/* ---- Seccion de porque ---- */
+/* --------- vacunarse-------- */
+
+.contenedor-porque-vacunarse{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageyvax{
+    width: 48%;
+    margin-right: 35px;
+    background-repeat: repeat-y;
+}
+
+.contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+    color: #1f3e72;
+}
+
+.contenido-textos span{
+    background: #285ae6;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0 0 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    color: #1f3d72bd;
+}
+
+/* --------------------------- */
+/* -- Precuaciones antes de -- */
+/* --------- vacunarse-------- */
+.titulo{
+    color: #1f3e72;
+    font-size: 30px;   
+    margin-bottom: 60px;
+}
+
+.left{
+    padding: 60px 0;
+    max-width: 1200px;
+    margin:0 160px;
+    overflow: hidden;
+}
+
+.imagecovid{
+    width: 80%;
+    height: 580px;
+    margin-left: 35px;
+}
+
+.nav__link{
+    color: #1f3e72;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    font-weight: 600;
+}
+.list{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 13px 13px 0;
+    background-color: aliceblue;
+}
+
+.list p{
+    display: flex;
+    align-items:center;
+    margin: 20px 50px;
+    color: #1f3d7286;
+    }
+.list__item{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+.list__button{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.list__button span{
+    background: #285be665;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-left: auto;
+}
+.list__arrow{
+    margin-left: auto;
+    height: 12px;
+}
+.list__show{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid #285ae6;
+    list-style: none;
+}
+.cont__inside{
+    opacity: 0.5;
+    font-size: small;
+    text-align: justify;
+    margin-left: 7px ;
+    margin-right: 120px;
+}
+
+/* --------------------------- */
+/* --- Contacto Emergencia --- */
+/* --------------------------- */
+
+.contact{
+    width: 50%;
+    max-width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0 160px;
+}
+.texto-contact{
+    text-align:left;
+    margin: 0 10px;
+    color: #1f3d72bd;
+    font-size: large;
+}
+.img-contact{
+    width: 800px;
+    z-index: 0;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 110px;
+}
+
+.card h4{
+    padding: 16px;
+}
+
+.card button{
+    padding: 10px 25px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #285be62d;
+    border: 2px solid #285be62d;
+    border-radius: 7px;
+    color: #285ae6;
+}
+
+.card button:hover{
+    background-color: #285ae6;
+    box-shadow: 0 0 10px #285ae6, 0 0 20px #285ae6, 0 0 20px #285ae6;
+    color: white;
+}
+
+.contenedor .card{
+    width: 280px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.contenedor .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, .2);
+}
+.contenedor .img-card{
+    width: 60px;
+    height: 60px;
+}
+.card span{
+    background: #285be665;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+.card h4{
+    color: #1f3e72;
+}
+.card p{
+    color: #1f3d72a1;
+}
+
+/* --------------------------- */
+/* --------- FOOTER ---------- */
+/* --------------------------- */
+
+footer{
+    background: rgb(233, 233, 233);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: center;
+    padding-bottom: 50px;
+}
+.vacc-footer{
+    width: 20%;
+    max-width: 750px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20px;
+    margin-right: 400px;
+}
+.content-foo p{
+    margin: 20px 12px;
+}
+.vacc-footer h4{
+    color: #285ae6;
+    font-size: xx-large;
+    text-align: left;
+    padding: 10px 20px;
+}
+.titulo-final{
+    padding: 0 60px;
+    color: gray;
+}
